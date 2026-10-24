@@ -64,3 +64,6 @@
 
 ## 6. Arquitectura objetivo incorporada
 La Ficha 4 (S02) — EDT 2.2, 3.1, 3.2 y 4.1 — se conecta a [SDD 05 arquitectura Hexagonal Slice](../sdd/05-ARQUITECTURA-HEXAGONAL.md), [SDD 06 componentes GCP](../sdd/06-ARQUITECTURA-COMPONENTES-GCP.md) y [SDD 07 decisiones/estándares](../sdd/07-ADR-ESTANDARES.md). Los criterios ARCH-01..08 requieren pruebas de independencia del dominio, permisos, contratos y evidencias antes del gate de semana 6. Fuente DevPattern; infraestructura base coherente con el producto técnico ATLAS, sin presumir refactor implementado.
+
+## 7. Trazabilidad de modelos y agentes ADK
+EDT 2.1/2.2 y RF-02/03/04/05 se respaldan en [SDD 08 ADK](../sdd/08-ADK-AGENTES-Y-ORQUESTACION.md), diagrama de subagentes y contracts; EDT 2.2/3.1/3.2, RF-01/06/07/10 y CA-03/04/06/08 en [SDD 09 Data/Metadata](../sdd/09-MODELOS-DATOS-Y-METADATOS.md). Catálogos y diccionario copiados de DataGob, contrato AgentOps versionado, arquitectura GCP sigue en SDD 06. Cotejar DTO/OpenAPI real antes de ejecutar migraciones.
