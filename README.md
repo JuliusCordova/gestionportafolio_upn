@@ -29,3 +29,10 @@ El repositorio UPN es la **fuente de verdad de la gestión académica y del alca
 
 ## Pendientes de evidencia
 URL de GitHub Projects; URL de carpeta compartida; evidencia del curso autoinstructivo individual; revisión cruzada por otro equipo; aceptación simulada documentada del sponsor; métricas observadas de la prueba piloto.
+
+## Arquitectura estandarizada
+- [Arquitectura de software Hexagonal Slice (ADR-002)](sdd/05-ARQUITECTURA-HEXAGONAL.md)
+- [Arquitectura de componentes y despliegue GCP (ADR-003)](sdd/06-ARQUITECTURA-COMPONENTES-GCP.md)
+- [Decisiones y estándares: ADR-002 a ADR-006](sdd/07-ADR-ESTANDARES.md)
+
+Patrones fuente: [DevPattern Hexagonal Slice](https://github.com/JuliusCordova/DevPattern/blob/main/patterns/architecture/hexagonal-slice/README.md) y [DevPattern GCP](https://github.com/JuliusCordova/DevPattern/blob/main/agentic-reference-architectures/gcp.md). El backend UPN se especifica como arquitectura **objetivo**; no se declara que el código del repositorio técnico ya haya sido refactorizado.
