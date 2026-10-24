@@ -36,3 +36,13 @@ URL de GitHub Projects; URL de carpeta compartida; evidencia del curso autoinstr
 - [Decisiones y estándares: ADR-002 a ADR-006](sdd/07-ADR-ESTANDARES.md)
 
 Patrones fuente: [DevPattern Hexagonal Slice](https://github.com/JuliusCordova/DevPattern/blob/main/patterns/architecture/hexagonal-slice/README.md) y [DevPattern GCP](https://github.com/JuliusCordova/DevPattern/blob/main/agentic-reference-architectures/gcp.md). El backend UPN se especifica como arquitectura **objetivo**; no se declara que el código del repositorio técnico ya haya sido refactorizado.
+
+## ADK, modelos de datos y metadatos canónicos
+- [SDD 08 — Agentes programados en Google ADK y diagramas Mermaid](sdd/08-ADK-AGENTES-Y-ORQUESTACION.md)
+- [SDD 09 — Modelo canónico/ER y metadatos AgentOps](sdd/09-MODELOS-DATOS-Y-METADATOS.md)
+- [Diccionario JSON DataGob v0.3.0](modelos/canonical/data_dictionary.json)
+- [Catálogo de dominios](modelos/catalogos/domains.json), [políticas](modelos/catalogos/policies.json) y [patrones GCP](modelos/catalogos/architecture_patterns.json)
+- [Contrato AgentOps JSON v1.1.0](modelos/agentops/agentops_contract_v1.json) y [SQL analítico de referencia](modelos/agentops/bigquery_schema_v1.sql)
+- [Relaciones canónicas en el repositorio fuente](https://github.com/JuliusCordova/portafoliodatagob/blob/main/data/canonical/entity_relationship_model.json) (referenciadas y diagramadas en SDD 09; archivo sin duplicar).
+
+**ADK confirmado** en el código del producto original; UPN conserva definiciones y diagramas. Las 8 capacidades del mapa conceptual no se presentan como 8 subagentes implementados.
