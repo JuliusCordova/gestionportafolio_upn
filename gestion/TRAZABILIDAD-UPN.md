@@ -61,3 +61,6 @@
 - [ ] Revisiones por integrantes y docente, si se solicitan.
 - [ ] Capturas auténticas de pruebas, demos y autoinstructivo.
 - [ ] Pruebas reales en GCP y conciliación de OpenAPI.
+
+## 6. Arquitectura objetivo incorporada
+La Ficha 4 (S02) — EDT 2.2, 3.1, 3.2 y 4.1 — se conecta a [SDD 05 arquitectura Hexagonal Slice](../sdd/05-ARQUITECTURA-HEXAGONAL.md), [SDD 06 componentes GCP](../sdd/06-ARQUITECTURA-COMPONENTES-GCP.md) y [SDD 07 decisiones/estándares](../sdd/07-ADR-ESTANDARES.md). Los criterios ARCH-01..08 requieren pruebas de independencia del dominio, permisos, contratos y evidencias antes del gate de semana 6. Fuente DevPattern; infraestructura base coherente con el producto técnico ATLAS, sin presumir refactor implementado.
