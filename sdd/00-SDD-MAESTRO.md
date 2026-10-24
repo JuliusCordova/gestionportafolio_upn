@@ -90,3 +90,8 @@ Seis semanas para implantación; metas de impacto a 3/6 meses son hipótesis a e
 
 ## 12. Índice
 [Agentes y arquitectura](01-ARQUITECTURA-AGENTICA.md) · [Contratos y datos](02-CONTRATOS-Y-DATOS.md) · [Historias y CA](03-BACKLOG-Y-ACEPTACION.md) · [Validación y operación](04-VALIDACION-Y-OPERACION.md).
+
+## 13. Baseline de arquitectura de software — ADR-002/ADR-003
+**Decisión posterior a v1.0:** arquitectura **Hexagonal Slice** para el backend (Domain/Application, inbound/outbound ports & adapters por capacidad de negocio) y arquitectura de componentes **Cloud Run-first sobre GCP**. El software objetivo se distingue de la arquitectura canónica de datos que ATLAS usa para evaluar iniciativas. No requiere reescribir todo el producto técnico durante las seis semanas.
+
+Documentos obligatorios: [SDD 05 — Hexagonal](05-ARQUITECTURA-HEXAGONAL.md), [SDD 06 — Componentes GCP](06-ARQUITECTURA-COMPONENTES-GCP.md), [SDD 07 — ADR/estándares](07-ADR-ESTANDARES.md). Criterios ARCH-01..08 aplican a cualquier refactor/implementación de slices; validar código as-built antes de afirmar conformidad.
